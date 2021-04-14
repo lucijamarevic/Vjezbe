@@ -23,18 +23,18 @@ class line:
 
     def find_the_equation(self):
         if self.k == 1:
-            if l == 0:
+            if self.l == 0:
                 print ("Jednadzba pravca glasi: x")
             else:
-                if l > 0:
+                if self.l > 0:
                     print ("Jednadzba pravca glasi: x + {:.2f}".format(self.l))
                 else:
                     print ("Jednadzba pravca glasi: x - {:.2f}".format(self.l))
         else:
-            if l == 0:
+            if self.l == 0:
                 print ("Jednadzba pravca glasi: {:.2f}x".format(self.k))
             else:
-                if l > 0:
+                if self.l > 0:
                     print ("Jednadzba pravca glasi: {:.2f}x + {:.2f}".format(self.k,self.l))
                 else:
                     print ("Jednadzba pravca glasi: {:.2f}x + {:.2f}".format(self.k,self.l))
